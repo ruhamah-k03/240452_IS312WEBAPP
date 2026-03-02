@@ -53,6 +53,12 @@ color: purple;
 font-size: 14px;
 }
 
+/* Hover effect */
+.navbar a:hover {
+  background-color: grey;
+  color: white;
+}
+
 /* Sidebar */
 aside {
 grid-area: aside;

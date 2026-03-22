@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 320px;
+        }
+
+        h2 {
+            margin-bottom: 25px;
+            color: #4e54c8;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-primary {
+            background-color: #4e54c8;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #3b40a4;
+        }
+
+        .btn-secondary {
+            background-color: #8f94fb;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #6c70d6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Welcome</h2>
+
+    <button class="btn btn-primary" onclick="goToPage('new-program.html')">
+        Add New Program
+    </button>
+
+    <button class="btn btn-secondary" onclick="goToPage('student-listing.php')">
+        View Student Listing
+    </button>
+</div>
+
+<script>
+    function goToPage(page) {
+        // simple navigation
+        window.location.href = page;
+    }
+</script>
+
+</body>
+</html>

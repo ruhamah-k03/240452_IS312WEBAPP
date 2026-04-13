@@ -1,0 +1,18 @@
+/* Custom Styles  */
+
+/* 1. Custom Brand Color */
+.navbar-brand {
+    color: #00e1ff !important;
+    font-weight: bold;
+}
+
+/* 2. Custom Jumbotron Padding */
+.p-5 {
+    border-bottom: 5px solid #00ff6a;
+}
+
+/* 3. Custom Hover Effect for Images */
+.img-fluid:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
